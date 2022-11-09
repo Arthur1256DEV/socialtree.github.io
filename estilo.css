@@ -1,0 +1,66 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body{
+    background-color: #FAF7FD;
+}
+
+#pinsta{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 250px;
+    color: #BB99DD;
+    border-radius: 10px;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: #BB99DD;
+}
+
+a{
+    color: #BB99DD  ;
+}
+
+#plink{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    border: 2px solid #BB99DD;
+    width: 310px;
+    padding: 11px;
+    color: #BB99DD;
+    border-radius: 5px;
+    
+}
+
+#foto_perfil{
+    display: flex;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border: 2px solid var(--purple);
+    border-radius: 110px;
+    padding: 1mm;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.row::after{
+    content: "";
+    clear: both;    
+    display: table;
+}
