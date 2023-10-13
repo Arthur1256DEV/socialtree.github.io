@@ -9,37 +9,44 @@ body{
 
 #pinsta{
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+    margin: 0;
     margin-top: 10px;
     margin-bottom: 50px;
     text-align: center;
-    width: 250px;
-    color: #BB99DD;
-    border-radius: 10px;
-
-}
-
-a:link{
-    text-decoration: none;
     color: #BB99DD;
 }
 
 a{
     color: #BB99DD  ;
+    text-decoration: none;
 }
 
-#plink{
+.container{
+    width: fit-content;
+    margin: auto;
+}
+
+.containerLinks{
+    margin-top: 40px;
+
+}
+
+.linker{
     font-family: 'Poppins', sans-serif;
+    display: block;
     font-style: bold;
-    margin: 0 auto;
-    margin-top: 15px;
     text-align: center;
     border: 2px solid #BB99DD;
-    width: 310px;
-    padding: 11px;
+    width: 30vw;
+    padding: 10px;
     color: #BB99DD;
     border-radius: 5px;
-    
+}
+
+.linker:hover{
+    background-color: #BB99DD;
+    color: white;
+    transition: 0.2s;
 }
 
 #foto_perfil{
@@ -56,11 +63,6 @@ a{
     display: flex;
     gap: 1rem;
     justify-content: center;
+    margin: 0;
     margin-top: 65px;
-}
-
-.row::after{
-    content: "";
-    clear: both;    
-    display: table;
 }
